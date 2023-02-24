@@ -3,8 +3,8 @@ public class Main {
         BonusService service = new BonusService();
 
 
-        long amount = 1000_60;
-        boolean registered = true;
+        long amount = 5000;
+        boolean registered = false;
 
         long bonus = service.calculate(amount, registered);
         System.out.println(bonus);
